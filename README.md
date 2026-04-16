@@ -43,36 +43,6 @@ I trained and compared **6 different models** (from classical ML to deep learnin
 
 > Exact numbers will vary depending on the random seed and how many images per class are loaded.
 
----
-
-## 🗂️ Repository Structure
-
-```
-plant-disease-detection/
-│
-├── plant_disease_detection_colab.ipynb   # Main notebook (run this on Colab)
-├── requirements.txt                       # Python dependencies
-├── README.md                              # You are here
-│
-├── results/
-│   ├── model_comparison.png               # Bar chart — all models
-│   ├── confusion_matrix_cnn.png           # Confusion matrix — best model
-│   ├── training_curves.png                # CNN loss & accuracy curves
-│   └── pca_variance.png                   # PCA variance explained plot
-│
-├── saved_models/                          # (generated after running notebook)
-│   ├── best_cnn_model.h5
-│   ├── best_svm_model.pkl
-│   ├── best_knn_model.pkl
-│   ├── best_rf_model.pkl
-│   └── pca_transform.pkl
-│
-└── demo/
-    └── gradio_ui_screenshot.png           # Screenshot of the web UI
-```
-
----
-
 ## 🚀 How to Run
 
 ### Option 1 — Google Colab (Recommended)
@@ -153,20 +123,6 @@ jupyter notebook plant_disease_detection_colab.ipynb
 - Add a mobile-friendly version using TensorFlow Lite
 - Extend to more plant species not covered in PlantVillage
 
----
 
-## 👤 Author
 
-**Your Name**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
-
----
-
-## 📄 License
-
-This project is open source under the [MIT License](LICENSE).
-
----
-
-*Built as part of my ML learning journey. Dataset credit: PlantVillage via Kaggle.*
+Built as part of my ML learning journey. Dataset credit: PlantVillage via Kaggle.
